@@ -1,0 +1,166 @@
+body{
+    background-color: black;
+
+}
+
+.content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+a{
+    color: #F4A460;
+    font-size: 40px;
+}
+a:hover,.img:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+.name{
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #EEE8AA;
+    background: linear-gradient(90deg, white, black);
+}
+.color{
+    color: rgb(150, 150, 150);
+    font-size: 40px;
+    font-style: italic;
+}
+h3{
+    text-decoration: underline;
+    color: aliceblue;
+    margin-left: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+.image-country-side{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.commit{
+    width: 400px;
+}
+.title{
+    
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    background: linear-gradient(120deg, #FFEFD5, yellow, #FFDAB9, red, blue, orange);
+}
+.project{
+    height: 600px;
+    background-color: black;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 70px;
+}
+th,td{
+    border: 1px solid red;
+    color: azure;
+}
+td{
+    padding: 50px;
+}
+caption{
+    text-decoration: underline;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+legend{
+    color: black;
+    background-color: azure;
+    border: 1px solid azure;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+label{
+    color: black;
+}
+fieldset{
+    background-color: #f5f5f5;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+p{
+    display: flex;
+    flex-direction: column;
+    padding-left: 450px;
+    
+}
+input,textarea{
+   
+    padding-left: 200px;
+    width: 200px;
+}
+.send{
+    padding: 15px;
+}
+footer{
+    border: 1px solid black;
+    border-top: 1px white solid;
+    margin-top: 50px;
+    height: 200px;
+}
+.contenu-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.title-footer{
+    text-align: center;
+}
+.envoi{
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.size{
+    width: 90px;
+}
+@media screen and (max-width : 990px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-country-side{
+        display: flex;
+        flex-wrap: wrap;  
+
+    }
+    table{
+        display: none;
+    }
+    .project{
+        height: 900px;
+    }
+    input,textarea{
+        padding-left: 0px;
+
+    }
+    p{
+        padding-left: 350px;
+    }
+    
+}
